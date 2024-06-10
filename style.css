@@ -1,0 +1,231 @@
+.pos {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.oswald {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
+body {
+    
+    font-size: 25px; /* Розмір шрифту */
+}
+
+h1, h2 {
+    
+    text-align: center; /* Вирівнювання тексту по центру */
+}
+
+
+td {
+    font-size: 25px; /* Розмір тексту в комірках таблиці */
+    text-align: center; /* Вирівнювання тексту в комірках по центру */
+}
+.banner-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffff; /* Колір тексту */
+    font-size: 50px; /* Розмір шрифту */
+    font-weight: bold; /* Товщина шрифту */
+    text-shadow: 5px 5px 1px rgba(0, 0, 0, 0.5); /* Тінь тексту */
+}
+
+.race-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.race-item {
+    flex: 0 0 45%; /* Ширина елементу, яка займає 45% ширини батьківського контейнера */
+    margin: 15px;
+    text-align: center;
+}
+.race-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+font {
+    font-weight: 800;
+}
+font.papaya {
+    font-weight:800;
+    
+    color:#ff8000;
+}
+.pilot-container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.pilot {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.pilot img {
+    max-width: 500px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.pilot-details {
+    flex: 1;
+}
+
+.sticky-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90%;
+    background-color: #333;
+    z-index: 1000;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 5%;
+    box-sizing: border-box;
+}
+
+.sticky-header .logo {
+    height: 50px; 
+}
+
+.sticky-header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.sticky-header nav ul li {
+    margin-left: 20px;
+}
+
+.sticky-header nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.sticky-header nav ul li a:hover {
+    background-color: #ff8000;
+}
+
+header, footer {
+    width: calc(80% + 70px);
+    background-color: #ededed;
+    margin: 0px;
+    padding: 5px;
+    border-radius: 15px;
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+    
+    #infopage {
+    width: 100%;
+}
+    
+    #dynamic-content {
+        margin-top: 20px;
+    }
+
+    .content {
+        margin-left: 3%; 
+    }
+    
+
+
+    form {
+        max-width: 600px;
+        margin: auto;
+        padding: 1em;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    form div + div {
+        margin-top: 1em;
+    }
+    
+    input[type="text"],
+    input[type="number"],
+    input[type="email"],
+    input[type="tel"],
+    textarea,
+    select {
+        width: 100%;
+        box-sizing: border-box;
+        border: 1px solid #999;
+        padding: .5em;
+        font-size: 1em;
+    }
+    
+    input[type="submit"] {
+        padding: 0.7em;
+        color: #fff;
+        background-color: #ff8000;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+        background-color: #ff8000;
+    }
+    
+    button {
+        display: block;
+        margin: 20px auto;
+        padding: 0.7em 1.5em;
+        color: #fff;
+        background-color: #ff8000;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #218838;
+    }
+    
+    /* Стиль для відступу варіантів відповідей */
+    .indent {
+        margin-left: 20px;
+    }
+    
+    label.indent {
+        display: block;
+        margin-left: 20px;
+    }

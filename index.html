@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Головна сторінка</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+            </style>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    
+    <body bgcolor="#ededed">
+        <div class="oswald">
+        <br> 
+    <div id="response"></div>      
+        
+        <header class="sticky-header">
+            <a href="index.html">
+                <img src="media/маленьке лого.png" alt="Logo" class="logo">
+            </a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="gp.html">Результати</a></li>
+                <li><a href="team.html">Команда</a></li>
+                <li><a href="merch.html">Мерч</a></li>
+                <li><a href="location.html">Розташування</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div id="infopage">
+        
+       <div class="banner-container">
+        <img src="media/велике_лого.png" alt="Банер" style="width: 100%;">
+        <img src="media/банер_гол.png" alt="Банер" style="width: 100%;">
+       </div>
+        <br>
+         
+
+       <div class="pilot-container">
+            <div class="pilot">
+              <img src="media/схема_іспанія.png">
+              <div class="pilot-details">
+              <h2>НАСТУПНЕ: <font class="papaya">Гран-Прі Іспанії</font></h2>
+              <p>Барселона<br>
+              21-23 червня</p>
+                           
+              </div>
+            </div>
+        </div>
+        
+        <h2>Історія команди</h2>
+        <div class="content">
+       <p>Британська команда заснована у 1966 році Брюсом Маклареном. За час існування макларен здобули 8 кубків конструкторів та 12 в особистих заліках. Останім чемпіоном команди є Льюіс гамільтон у 2008 році. Наразі команда посідає 3 місце у командмому заліку.</p>
+        <br>
+        </div>
+
+        
+        <h1>Розіграш мерчу з підписами Ландо та Оскара</h1>
+        <form id="mclarenForm">
+            <h2>Інформація про учасника</h2><br>
+            
+            Введіть ваше ім'я: <input type="text" name="name" placeholder="Анна" required><br>
+            Введіть ваше прізвище: <input type="text" name="lastname" placeholder="Мельник" required><br>
+            Введіть ваш вік: <input type="number" name="age" placeholder="20" min="1" required><br>
+            Введіть ваш e-mail: <input type="email" name="email" placeholder="mclarenfun@gmail.com" required><br>
+            Номер телефону: <input type="tel" name="phone" placeholder="+380-00-00-0000" required><br> <br>
+    
+            <h2>Інтереси</h2><br>
+            
+            Ваш улюблений пілот:
+            <select name="favorite_driver" required>
+                <option value="lando_norris">Ландо Норріс</option>
+                <option value="oscar_piastri">Оскар Піастрі</option>
+            </select><br><br>
+            
+            Які Гран-Прі ви відвідували у 2024 році? <br>
+            <label class="indent">Гран-прі Бахрейну: <input type="checkbox"><br>
+            Гран-прі Саудівської Аравії: <input type="checkbox"><br>
+            Гран-прі Австалії: <input type="checkbox"><br>
+            Гран-прі Японії: <input type="checkbox"><br>
+            Гран-прі Китаю: <input type="checkbox"><br>
+            Гран-прі Маямі: <input type="checkbox"><br>
+            Гран-прі Емілії-Романьї: <input type="checkbox"><br>
+            Гран-прі Монако: <input type="checkbox"><br>
+            Гран-прі Канади: <input type="checkbox"></label><br>
+            
+            Улюблена ліврея Макларен у сезоні 2024:<br>
+            <label class="indent"><input type="radio" name="favorite_livery" value="MCL35M" required> MCL35M<br>
+            <input type="radio" name="favorite_livery" value="MILTZ" required> MILTZ<br>
+            <input type="radio" name="favorite_livery" value="Senna" required> Senna</label><br>
+            
+            <button id="addInputButton">Додати побажання</button><br>
+            
+            <input type="submit" value="Надіслати">
+        </form>
+
+    
+        <script src="script.js"></script>
+    </div>
+    
+    <footer>Контактна інформація<br> <br>
+        <a href="https://twitter.com/McLarenF1">
+            <img src="media/x_1.png">
+        </a>
+        <a href="https://www.facebook.com/McLarenRacing/">
+            <img src="media/facebook.png">
+        </a>
+        <a href="https://www.instagram.com/mclaren/">
+            <img src="media/incta.png">
+        </a>
+        <a href="https://www.youtube.com/@McLaren">
+            <img src="media/youtube.png">
+        </a>
+        <a href="https://www.tiktok.com/@mclaren?lang=uk-UA">
+            <img src="media/тікток.png">
+        </a>
+    </footer>
+</div>
+    </body>
+</html>
